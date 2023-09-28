@@ -1,6 +1,7 @@
 [core]
     remote = ssh-storage
 ['remote "ssh-storage"']
-    url = ssh://dvc@10.0.2.15/opt/datasets
+    url = ssh://denis@192.168.56.101/opt/datasets
+    password = 123
     user = denis
     port = 22
