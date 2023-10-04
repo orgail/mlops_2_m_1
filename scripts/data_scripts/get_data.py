@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-from catboost.datasets import titanic
+from catboost.datasets import amazon
 
-train, test = titanic()
+train, test = amazon()
 
 train.to_csv("../../data/raw/train.csv", index=False)
 
