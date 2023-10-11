@@ -3,5 +3,5 @@ split:
   seed: 42
 
 train:
-  n_neighbors: 14
+  n_neighbors: 13
   weights: "distance"
