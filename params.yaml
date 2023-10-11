@@ -1,6 +1,7 @@
 split:
   split_ratio: 0.3
+  seed: 42
 
 train:
-  seed: 42
-  max_depth: 3
+  n_neighbors: 9
+  weights: "distance"
